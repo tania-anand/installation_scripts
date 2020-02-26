@@ -9,3 +9,5 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 #check docker compose version
 docker-compose --version
+
+exit 1

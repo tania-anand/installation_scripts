@@ -16,11 +16,11 @@ apt-get update
 apt-cache policy docker-ce
 
 #install docker 
-apt-get install -y docker-ce 
+apt-get install -y --allow-unauthenticated docker-ce 
 
 
 #see docker system status
 systemctl status docker
 
-
 echo "Docker Installation Finished"
+exit 1
